@@ -1,23 +1,15 @@
-package com.dale.projetoestudo.model;
+package com.dale.projetoestudo.view.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+public class ProdutoResponse {
 
-@Entity
-public class Produto {
-    
     //#region Atributos
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private String nome;
     private Integer quantidade;
     private Double valor;
     private String observacoes;
     //#endregion
-    
+
     //#region Getters and Setters
     public Integer getId() {
         return id;
@@ -50,5 +42,4 @@ public class Produto {
         this.observacoes = observacoes;
     }
     //#endregion
-    
 }

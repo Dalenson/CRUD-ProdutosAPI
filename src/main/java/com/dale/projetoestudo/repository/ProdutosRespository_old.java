@@ -11,6 +11,8 @@ import com.dale.projetoestudo.model.exception.ResourceNotFoundExecption;
 
 @Repository
 public class ProdutosRespository_old {
+    private ArrayList<Produto> produtos = new ArrayList<Produto>();
+    private Integer ultimoId = 0;
     /**
      * Metodo para retornar uma lista de produtos
      * @return lista de produtos.
