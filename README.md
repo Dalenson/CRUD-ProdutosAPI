@@ -6,7 +6,7 @@ Projeto apenas para estudo, visando a implementação de um projeto CRUD, que fa
 
 ## Stack utilizada
 
-**Back-end:** Spring Boot, MySql, Heroku.
+**Back-end:** Spring Boot, MySql, Heroku, Eureka.
 
 ## Documentação da API
 
